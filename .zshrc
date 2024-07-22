@@ -24,14 +24,11 @@ eval "$(zoxide init zsh)"
 
 source <(fzf --zsh)
 
+alias ..='cd ..'
 alias ...='cd ../..'
 alias ls='ls -aF --color'
 alias grep='grep --color'
 alias mkdir='mkdir -pv'
-alias hx='helix'
-alias zl='zellij'
-
-export CPLUS_INCLUDE_PATH=/home/henk/.local/include/algo:$CPLUS_INCLUDE_PATH
 
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
