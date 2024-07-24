@@ -36,3 +36,4 @@ end
 
 set -x CPLUS_INCLUDE_PATH /home/henk/.local/include/algo $CPLUS_INCLUDE_PATH
 set PATH $PATH /home/henk/.local/bin
+set PATH $HOME/.local/bin $PATH
