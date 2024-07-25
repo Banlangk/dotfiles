@@ -59,12 +59,12 @@ wezterm.on('gui-startup', function(cmd)
     local screen_width = screen.width
     local screen_height = screen.height
 
-    local ratio = 0.64
+    local ratio = 0.7
     local width = screen_width * ratio
     local height = screen_height * ratio
 
-    local x = (screen_width - width) / 2 - 14
-    local y = (screen_height - height) / 2 - 86
+    local x = (screen_width - width) / 2
+    local y = (screen_height - height) / 2 - 88
 
     local mux = wezterm.mux
     local tab, pane, window = mux.spawn_window(cmd or {
