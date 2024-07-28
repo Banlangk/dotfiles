@@ -15,7 +15,7 @@ To set up these dotfiles on a new machine, follow these steps. Ensure you have G
 Clone the repository as a bare repository:
 
 ```sh
-git clone --bare https://github.com/Banlangk/dotfiles.git $HOME/.dotfiles
+git clone --bare https://github.com/banlangk/dotfiles.git $HOME/.dotfiles
 ```
 
 #### 2. Define the `dotfiles` Function
