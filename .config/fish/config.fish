@@ -1,3 +1,6 @@
+set -x LANG zh_CN.UTF-8
+set -x LC_ALL zh_CN.UTF-8
+
 if status is-interactive
     function fish_greeting
     end
